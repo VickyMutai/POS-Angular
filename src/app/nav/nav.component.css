@@ -1,22 +1,23 @@
 /* unvisited link */
 a:link {
-    color: black;
+    color: white;
+    font-weight: bolder;
   }
   
   /* visited link */
   a:visited {
-    color: black;
+    color: white;
+    font-weight: bolder;
   }
   
   /* mouse over link */
   a:hover {
-    color: black;
+    color: white;
+    font-weight: bolder;
   }
   
   /* selected link */
   a:active {
-    color: black;
-  }
-  .navbar-brand{
-      font-family: cursive;
+    color: 	white;
+    font-weight: bolder;
   }
