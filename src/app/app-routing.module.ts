@@ -5,14 +5,16 @@ import {LoginPageComponent} from './registration/login-page/login-page.component
 import { ClientComponent } from './admin/client/client.component';
 import { DashComponent } from './admin/dash/dash.component';
 import { UsersComponent } from './admin/users/users.component';
+import {ItemsComponent} from './dashboard/items/items.component';
 
 
 const routes: Routes = [
   { path: '', component: LoginPageComponent},
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'client', component: ClientComponent},
+  { path: 'clients', component: ClientComponent},
   { path: 'admin/dashboard', component: DashComponent },
   { path: 'users', component: UsersComponent },
+  { path: 'items', component: ItemsComponent},
 ];
 
 @NgModule({
