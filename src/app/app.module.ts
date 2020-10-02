@@ -17,6 +17,7 @@ import { VerifyEmailComponent } from './registration/verify-email/verify-email.c
 import { ClientComponent } from './admin/client/client.component';
 import { UsersComponent } from './admin/users/users.component';
 import { ItemsComponent } from './dashboard/items/items.component';
+import { DashComponent } from './admin/dash/dash.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ItemsComponent } from './dashboard/items/items.component';
     ClientComponent,
     UsersComponent,
     ItemsComponent,
+    DashComponent,
   ],
   imports: [
     BrowserModule,
